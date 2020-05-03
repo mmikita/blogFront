@@ -8,10 +8,7 @@ const Header = ({ state }) => {
   return (
     <>
       <Container>
-        <StyledLink link="/">
-          <Title>{state.frontity.title}</Title>
-        </StyledLink>
-        <Description>{state.frontity.description}</Description>
+<div></div>
         <MobileMenu />
       </Container>
       <Nav />
@@ -46,3 +43,8 @@ const Description = styled.h4`
 const StyledLink = styled(Link)`
   text-decoration: none;
 `;
+
+const body = styled.body`
+  background-color: #E8E8E8;
+`;
+
