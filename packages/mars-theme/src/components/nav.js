@@ -35,6 +35,8 @@ const NavContainer = styled.nav`
   padding: 0 24px;
   margin: 0;
   overflow-x: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
 
   @media screen and (max-width: 560px) {
     display: none;
@@ -48,8 +50,10 @@ const NavItem = styled.div`
   font-size: 0.9em;
   box-sizing: border-box;
   flex-shrink: 0;
-
   & > a {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px #1f940f;
     display: inline-block;
     line-height: 2em;
     border-bottom: 2px solid;
