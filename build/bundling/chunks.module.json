@@ -2,31 +2,20 @@
   "errors": [],
   "warnings": [],
   "version": "4.43.0",
-  "hash": "9e790229ffb33534804f",
+  "hash": "5357760a3f524e4c371e",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\Admin\\Desktop\\blog\\reakt\\blog\\build\\static",
   "assetsByChunkName": {
     "blog": [
       "blog.module.js",
-      "blog.acbff1470448911bbf92.hot-update.js"
+      "blog.da6eaefade252be493cf.hot-update.js"
     ],
     "list": "list.module.js"
   },
   "assets": [
     {
-      "name": "acbff1470448911bbf92.hot-update.json",
-      "size": 46,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "blog.acbff1470448911bbf92.hot-update.js",
-      "size": 20703,
+      "name": "blog.da6eaefade252be493cf.hot-update.js",
+      "size": 21560,
       "chunks": [
         "blog"
       ],
@@ -41,7 +30,7 @@
     },
     {
       "name": "blog.module.js",
-      "size": 5089665,
+      "size": 5087215,
       "chunks": [
         "blog"
       ],
@@ -49,6 +38,17 @@
         "blog"
       ],
       "info": {},
+      "emitted": false
+    },
+    {
+      "name": "da6eaefade252be493cf.hot-update.json",
+      "size": 46,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
       "emitted": false
     },
     {
@@ -72,7 +72,7 @@
       ],
       "assets": [
         "blog.module.js",
-        "blog.acbff1470448911bbf92.hot-update.js"
+        "blog.da6eaefade252be493cf.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -85,7 +85,7 @@
       ],
       "assets": [
         "blog.module.js",
-        "blog.acbff1470448911bbf92.hot-update.js"
+        "blog.da6eaefade252be493cf.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

@@ -7,7 +7,6 @@ import Post from "./post";
 import Loading from "./loading";
 import Title from "./title";
 import PageError from "./page-error";
-import './../css/styles.css';
 
 
 /**
@@ -57,19 +56,24 @@ const globalStyles = css`
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #E8E8E8;
   }
   a,
   a:visited {
     color: inherit;
     text-decoration: none;
   }
+  
 `;
 
 const HeadContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #1f38c5;
+  background-image: url(http://paster01.ayz.pl/blog/wp-content/uploads/2020/04/BarBigSnC1.png);
+    background-size: cover;
+    min-height: 350px;
+    background-position: 79.5% 35%;
 `;
 
 const Main = styled.div`

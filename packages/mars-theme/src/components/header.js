@@ -8,7 +8,7 @@ const Header = ({ state }) => {
   return (
     <>
       <Container>
-<div></div>
+<div className="baner"></div>
         <MobileMenu />
       </Container>
       <Nav />
@@ -44,7 +44,5 @@ const StyledLink = styled(Link)`
   text-decoration: none;
 `;
 
-const body = styled.body`
-  background-color: #E8E8E8;
-`;
+
 

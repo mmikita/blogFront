@@ -19,5 +19,9 @@
     "@frontity/tiny-router": "^1.2.0",
     "@frontity/html2react": "^1.3.2",
     "@frontity/mars-theme": "./packages/mars-theme"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.1"
   }
 }
