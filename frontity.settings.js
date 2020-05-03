@@ -14,24 +14,20 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Home",
+              "Główna",
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "O blogu",
+              "/oblogu"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Kategorie",
+              "/kategorie"
             ],
             [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
+              "Kontakt",
+              "/kontakt"
             ]
           ],
           "featured": {
@@ -45,7 +41,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://test.frontity.io/wp-json"
+          "api": "http://paster01.ayz.pl/blog/wp-json"
         }
       }
     },
