@@ -19,15 +19,15 @@ const settings = {
             ],
             [
               "O blogu",
-              "/oblogu"
+              "/oblogu/"
             ],
             [
               "Kategorie",
-              "/kategorie"
+              "/kategorie/"
             ],
             [
               "Kontakt",
-              "/kontakt"
+              "/kontakt/"
             ]
           ],
           "featured": {

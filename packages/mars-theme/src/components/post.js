@@ -113,9 +113,10 @@ const Content = styled.div`
   }
 
   img {
-    width: 100%;
+    width: auto;
     object-fit: cover;
     object-position: center;
+    margin-left: 30px;
   }
 
   figure {

@@ -60,10 +60,13 @@ const NavItem = styled.div`
     border-bottom-color: transparent;
     /* Use for semantic approach to style the current link */
     &[aria-current="page"] {
-      border-bottom-color: #fff;
+      border-bottom-color: #9ce7ab;
+      color: #9ce7ab;
     }
   }
-
+  & > a:hover {
+    color: #9ce7ab;
+  }
   &:first-of-type {
     margin-left: 0;
   }
