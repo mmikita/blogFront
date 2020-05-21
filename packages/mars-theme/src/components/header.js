@@ -8,7 +8,6 @@ const Header = ({ state }) => {
   return (
     <>
       <Container>
-<div className="baner"></div>
         <MobileMenu />
       </Container>
       <Nav />

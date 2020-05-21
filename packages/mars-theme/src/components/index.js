@@ -34,7 +34,6 @@ const Theme = ({ state }) => {
       <HeadContainer>
         <Header />
       </HeadContainer>
-
       {/* Add the main section. It renders a different component depending
       on the type of URL we are in. */}
       <Main>

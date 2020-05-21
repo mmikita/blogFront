@@ -3,6 +3,7 @@ import { connect, styled } from "frontity";
 import Link from "../link";
 import FeaturedMedia from "../featured-media";
 
+
 /**
  * Item Component
  *
@@ -15,11 +16,14 @@ const Item = ({ state, item }) => {
   const author = state.source.author[item.author];
   const date = new Date(item.date);
 
+
+
   return (
     <article>
       <Link link={item.link}>
         <Title dangerouslySetInnerHTML={{ __html: item.title.rendered }} />
       </Link>
+           
 
       <div>
         {/* If the post has an author, we render a clickable author text. */}
@@ -47,11 +51,16 @@ const Item = ({ state, item }) => {
       {/* If the post has an excerpt (short summary text), we render it */}
       {item.excerpt && (
         <Excerpt dangerouslySetInnerHTML={{ __html: item.excerpt.rendered }} />
+
       )}
+      <Linkcontainer> 
+    <Link link={item.link}>
+      <More>Zobacz</More> 
+    </Link>  
+    </Linkcontainer> 
     </article>
   );
 };
-
 // Connect the Item to gain access to `state` as a prop
 export default connect(Item);
 
@@ -63,6 +72,32 @@ const Title = styled.h1`
   padding-bottom: 8px;
   box-sizing: border-box;
 `;
+
+const Linkcontainer = styled.div`
+display: flex;
+justify-content: flex-end;
+
+`;
+
+const More = styled.span`
+margin-top: 5px;
+display: block;
+width: 115px;
+height: 25px;
+background: #1f940f;
+padding: 10px;
+text-align: center;
+border-radius: 5px;
+color: #dbe4e8;
+font-weight: bold;
+&:hover {
+  color: #fff;
+  background: #348445;
+}
+`;
+
+
+
 
 const AuthorName = styled.span`
   color: rgba(12, 17, 43, 0.9);
